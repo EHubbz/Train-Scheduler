@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<html lang="en-us">
+
+<head>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/style.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<title>Train-Scheduler</title>
+
+
+</head>
+
+<body>
+	
+	<div class="jumbotron">Official Train Schedule</div>
+
+	<div class="panel panel-default">
+  		<div class="panel-heading"><h3>Updated Train Information</h3>
+    		<div class="panel-body">
+    			<table id="table" class="table table-striped table-responsive">
+  				<tr>
+    				<th>Train</th>
+	    			<th>Destination</th> 
+    				<th>Minutes Until Next Departure</th>
+    				<th>Next Departure</th>
+				 </tr>
+				 <tr>
+				    <td>Train 1</td>
+				    <td>Charlotte</td> 
+				    <td>50</td>
+				    <td>19:45</td>
+				  </tr>
+				  <tr>
+				    <td>Train 2</td>
+				    <td>Chicago</td> 
+				    <td>90</td>
+				    <td>08:50</td>
+				  </tr>
+				  <tr>
+				    <td>Train 3</td>
+				    <td>Toronto</td> 
+				    <td>25</td>
+				    <td>14:05</td>
+				  </tr>
+				</table>
+			</div>
+  		</div>
+	</div>
+
+	</div>
+  	<div class="panel panel-default">
+	  	<div class="panel-heading"><h3>Add A New Train</h3>
+	  		<div class="panel-body">
+	  		<form>
+	  			<div class="form-group">
+	    			<label for="train">Train</label>
+	    			<input type="text" class="form-control" id="trainName" placeholder="Train Name">
+	  			</div>
+	  			<div class="form-group">
+	    			<label for="destination">Destination</label>
+	    			<input type="text" class="form-control" id="destination" placeholder="City">
+	  			</div>
+	  			<div class="form-group">
+	    			<label for="timeUntil">Minutes Until Next Departure</label>
+	    			<input type="text" class="form-control" id="timeUntil" placeholder="ex: 75">
+	  			</div>
+	  			<div class="form-group">
+	    			<label for="departure">Next Departure</label>
+	    			<input type="text" class="form-control" id="departure" placeholder="Military Time">
+	  			</div>
+	  		</form>
+	  		<button id="add" type="button" class="btn btn-default">Add Train</button>
+			</div>  	
+  		</div>
+  	</div>
+
+
+
+
+	<footer></footer>
+
+
+</body>
+
+<script src="assets/script.js"></script>
+
+</html>
+
+
+<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.7.7/lux/bootstrap.min.css" 
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<script src="https://www.gstatic.com/firebasejs/4.9.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyATSLOkPYWTUnky3vLdA_iMiejpLbUsxgY",
+    authDomain: "something-new-d1aca.firebaseapp.com",
+    databaseURL: "https://something-new-d1aca.firebaseio.com",
+    projectId: "something-new-d1aca",
+    storageBucket: "something-new-d1aca.appspot.com",
+    messagingSenderId: "161457609376"
+  };
+  firebase.initializeApp(config);
+</script>
+
+
+-->
+
+
