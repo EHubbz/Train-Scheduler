@@ -1,19 +1,18 @@
 body {
-	background-color: black;
+	font-size: 15px;
 }
 
 .jumbotron {
 	border-radius: 5px;
-	padding: 20px;
+	padding: 30px;
 	margin: 10px;
 	text-align: center;
-	font-size: 50px;
-	background-color: darkgrey;
+	font-size: 55px;
 }
 
 .panel {
 	padding: 10px;
-	margin: 5px;
+	margin: 10px;
 	font-size: 15px;
 }
 
@@ -40,5 +39,6 @@ td {
 }
 
 #addTrain {
-	background-color: lightgrey;
+	font-size: 12px;
 }
+
